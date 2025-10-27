@@ -1,0 +1,137 @@
+body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-image: linear-gradient(#38040E, #633f46);
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+button {
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    background-color: #250902;
+    width: 100%;
+    height: 10vh
+}
+
+.TitleButton{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: calc(100% / 3);
+    border-radius: 1em;
+    font-size:x-large;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.TitleButton:hover{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: xx-large;
+}
+
+.Sida1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5vh;
+    border-radius: 0.5em;
+    background-color: #ec9298;
+    width: calc(5vw * 14);
+    height: calc(4vh * 18);
+    transition: transform 0.2s ease;
+}
+.Sida2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 0.5em;
+    background-color: #ec9298;
+    width: calc(5vw * 14);
+    height: calc(4vh * 18);
+    transition: transform 0.2s ease;
+}
+
+.Sida1.visible, .Sida2.visible {
+    transform: scale(1.05);
+}
+
+
+.page-cover1 {
+    padding: 1%;
+    height: 96%;
+    width: 35%;
+}
+.page-cover2 {
+    padding: 1%;
+    height: 96%;
+    width: 35%;
+}
+
+.StorKnapp {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 0.5rem;
+    background-color: #00000080;
+    color:#c5c5c5;
+    font-size: large;
+    border: none;
+    width: calc(5vw * 11);
+    height: calc(4vh * 2);
+    transition: font 0.2s ease;
+}
+
+.StorKnapp:hover {
+    font-size: x-large;
+}
+
+.Astonhoho {
+    display:flex;
+    padding: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    height: calc(50vh - 3rem);
+    width: calc(100vw - 10rem);
+}
+
+.Följ {
+    display: table;
+    color: #c5c5c5;
+    height: calc(80% - 2em);
+    width: calc(50% - 2em);
+    background-color:transparent;
+    border-color: #c5c5c5;
+    border-radius: 0.5rem;
+    border-style:solid;
+    padding: 1em;
+    margin: 0.5rem;
+}
+
+.Credit {
+    position: absolute;
+    right: 1em;
+    align-self: flex-end;
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 72, 72);
+}
