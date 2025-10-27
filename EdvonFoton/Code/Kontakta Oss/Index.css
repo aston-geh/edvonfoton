@@ -1,0 +1,114 @@
+body {
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: center;
+    background-image: linear-gradient(#38040E, #633f46);
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+button {
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    background-color: #250902;
+    width: 100%;
+    height: 10vh
+}
+
+.TitleButton{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 80%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: calc(100% / 3);
+    border-radius: 1em;
+    font-size:x-large;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.TitleButton:hover{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: xx-large;
+}
+
+.FirstFrame {
+    position: relative;
+    display:flex;
+    align-items: center;
+    background-color: rgba(161, 126, 133, 0.5);
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    width: calc(90vw - 4em);
+    height: calc(40vh - 4em);
+    font-size: large;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.AndraFrame {
+    position: relative;
+    display: block;
+    align-items: center;
+    background-color: rgba(161, 126, 133, 0.5);
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    width: calc(90vw - 4em);
+    height: calc(51vh - 4em);
+    font-size: large;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.SupportImg {
+    height: 100%;
+    width: 20%;
+}
+
+.Astonhoho {
+    display:flex;
+    padding: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    height: calc(50vh - 3rem);
+    width: calc(100vw - 10rem);
+}
+
+.Följ {
+    display: table;
+    color: #c5c5c5;
+    height: calc(80% - 2em);
+    width: calc(50% - 2em);
+    background-color:transparent;
+    border-color: #c5c5c5;
+    border-radius: 0.5rem;
+    border-style:solid;
+    padding: 1em;
+    margin: 0.5rem;
+}
+
+.Credit {
+    position: absolute;
+    right: 1em;
+    align-self: flex-end;
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 72, 72);
+}

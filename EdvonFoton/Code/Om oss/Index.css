@@ -1,0 +1,35 @@
+body {
+    color: aqua;
+}
+
+.Astonhoho {
+    display:flex;
+    padding: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+    height: calc(50vh - 3rem);
+    width: calc(100vw - 10rem);
+}
+
+.Följ {
+    display: table;
+    color: #c5c5c5;
+    height: calc(80% - 2em);
+    width: calc(50% - 2em);
+    background-color:transparent;
+    border-color: #c5c5c5;
+    border-radius: 0.5rem;
+    border-style:solid;
+    padding: 1em;
+    margin: 0.5rem;
+}
+
+.Credit {
+    position: absolute;
+    right: 1em;
+    align-self: flex-end;
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 72, 72);
+}
